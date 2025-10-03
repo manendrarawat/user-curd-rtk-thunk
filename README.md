@@ -61,6 +61,7 @@ user-curd-rtk-thunk/
                  │     ├── ErrorBanner.js
                  │     └── LoadingSpinner.js
                  └── index.js
+                 ```
 
 
 Folder Overview
