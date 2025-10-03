@@ -30,38 +30,7 @@ A simple **React** project demonstrating **CRUD operations** on users using **Re
 
 ## Project Structure
 
-```text
-user-curd-rtk-thunk/
- ├── package.json
- └── src/
-      ├── index.js
-      ├── index.css
-      ├── App.js
-      ├── pages/
-      │     └── UsersPage.js
-      ├── app/
-      │     ├── store.js
-      │     └── rootReducer.js
-      └── features/
-            ├── users/
-            │    ├── components/
-            │    │     └── UserList.js
-            │    ├── services/
-            │    │     └── userService.js
-            │    ├── slices/
-            │    │     └── userSlice.js
-            │    └── index.js
-            └── global/
-                 ├── slices/
-                 │     └── globalSlice.js
-                 ├── middleware/
-                 │     ├── errorMiddleware.js
-                 │     └── loadingMiddleware.js
-                 ├── components/
-                 │     ├── ErrorBanner.js
-                 │     └── LoadingSpinner.js
-                 └── index.js
-                 ```
+
 
 
 Folder Overview
