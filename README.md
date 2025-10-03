@@ -66,28 +66,28 @@ user-curd-rtk-thunk/
 
 
 
-Folder Overview
+**Folder Overview**
 src/app/
 
-store.js → Redux store configuration with middleware
+**store.js** → Redux store configuration with middleware
 
-rootReducer.js → Combines users and global reducers
+**rootReducer.js** → Combines users and global reducers
 
 src/features/users/
 
-slices/userSlice.js → Redux slice with CRUD async thunks
+**slices/userSlice.js** → Redux slice with CRUD async thunks
 
-services/userService.js → Axios API calls to JSONPlaceholder
+**services/userService.js** → Axios API calls to JSONPlaceholder
 
-components/UserList.js → User list and form UI
+**components/UserList.js** → User list and form UI
 
-index.js → Barrel file for exporting slice, service, and component
+**index.js** → Barrel file for exporting slice, service, and component
 
 src/features/global/
 
-slices/globalSlice.js → Global loading and error slice
+**slices/globalSlice.js** → Global loading and error slice
 
-middleware/errorMiddleware.js → Dispatches error to global slice
+**middleware/errorMiddleware.js** → Dispatches error to global slice
 
 middleware/loadingMiddleware.js → Dispatches loading state
 
